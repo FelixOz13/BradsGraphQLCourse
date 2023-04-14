@@ -9,7 +9,8 @@ const ClientSchema = new mongoose.Schema({
   },
   phone: {
     type: String,
-    },
-})
+  },
+});
+
 module.exports = mongoose.model('Client', ClientSchema);
 

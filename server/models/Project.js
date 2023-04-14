@@ -9,11 +9,12 @@ const ProjectSchema = new mongoose.Schema({
   },
   status: {
     type: String,
-    enum:['Not Started','InProgress','Completed',],
+    enum: ['Not Started', 'In Progress', 'Completed'],
   },
   clientId: {
     type: mongoose.Schema.Types.ObjectId,
-    ref:'Client'
-  }
-})
+    ref: 'Client',
+  },
+});
+
 module.exports = mongoose.model('Project', ProjectSchema);
