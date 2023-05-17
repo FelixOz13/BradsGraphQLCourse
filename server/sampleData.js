@@ -1,5 +1,5 @@
 const projects = [
-   {
+  {
     id: '1',
     clientId: '1',
     name: 'eCommerce Website',
@@ -40,27 +40,26 @@ const projects = [
     status: 'In Progress',
   },
 ]
- 
 
- const clients = [
-    { 
-       id: '1',
-       name: 'Felix Ozuna',
-       email: 'felixozuna@outlook.com',
-       username: 'FelixOz13', 
-    },
-     { 
-       id: '2',
-       name: 'Felix Casillas',
-       email: 'felixozuna13@gmail.com',
-       username: 'UltimateWarrior', 
-    },
-     { 
-       id: '3',
-       name: 'Felix  Ozuna Casillas',
-       email: 'felixozuna13@icloud.com',
-       username: 'Felixozuna13', 
-   } ,
- ]
-          
-module.exports = { projects, clients };
+const clients = [
+  {
+    id: '1',
+    name: 'Felix Ozuna',
+    email: 'felixozuna@outlook.com',
+    username: 'FelixOz13',
+  },
+  {
+    id: '2',
+    name: 'Felix Casillas',
+    email: 'felixozuna13@gmail.com',
+    username: 'UltimateWarrior',
+  },
+  {
+    id: '3',
+    name: 'Felix  Ozuna Casillas',
+    email: 'felixozuna13@icloud.com',
+    username: 'Felixozuna13',
+  },
+]
+
+module.exports = { projects, clients }
